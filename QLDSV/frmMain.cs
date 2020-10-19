@@ -135,5 +135,24 @@ namespace QLDSV
                 MessageBox.Show("Bạn không sử dụng được chức năng này!", "", MessageBoxButtons.OK);
             }
         }
+
+        private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (Program.mGroup == "PGV" || Program.mGroup == "Khoa")
+            {
+                Form frm = this.CheckExists(typeof(frmREPORTDSSV));
+                if (frm != null) frm.Activate();
+                else
+                {
+                    frmREPORTDSSV f = new frmREPORTDSSV();
+                    f.MdiParent = this;
+                    f.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bạn không sử dụng được chức năng này!", "", MessageBoxButtons.OK);
+            }
+        }
     }
 }

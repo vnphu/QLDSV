@@ -192,3 +192,5 @@ D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\bin\Debug\de\DevExpress.Diagram.v1
 D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
 D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
 D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.frmREPORTDSSV.resources
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.rptDSSV.resources
