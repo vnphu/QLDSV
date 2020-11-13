@@ -56,8 +56,9 @@ namespace QLDSV
             }
             if (Program.mGroup == "Khoa")
             {
-                cmbRoles.Items.RemoveAt(3);
-                cmbRoles.Items.RemoveAt(0);
+                cmbRoles.SelectedIndex = 1;
+                //cmbRoles.Items.RemoveAt(3);
+                //cmbRoles.Items.RemoveAt(0);
                 cmbRoles.Enabled = false;
             }
             if (Program.mGroup == "PKeToan")
@@ -174,49 +175,54 @@ namespace QLDSV
                 }
                 if (Program.KetNoi() == 0)
                     MessageBox.Show("Lỗi kết nối về chi nhánh mới", "", MessageBoxButtons.OK);
-                //else
-                //{
-                //    this.sP_DSChuaCoTKTableAdapter.Connection.ConnectionString = Program.connstr;
-                //    this.sP_DSChuaCoTKTableAdapter.Fill(this.dS.SP_DSChuaCoTK);
-                //    if (Program.mGroup == "PGV")
-                //    {
-                //        cmbKhoa.Enabled = true;
-                //        try
-                //        {
-                //            cmbRoles.Items.Clear();
-                //            cmbRoles.Items.Add("PGV");
-                //            cmbRoles.Items.Add("Khoa");
-                //            cmbRoles.Items.Add("User");
-                //            cmbRoles.Items.Add("PKeToan");
-                            
-                //            cmbRoles.Enabled = true;
-                //            cmbRoles.Items.RemoveAt(3);
-                //            cmbRoles.SelectedIndex = 0;
-                //        }
-                //        catch (Exception ex)
-                //        {
+                else
+                {
+                    this.sP_DSChuaCoTKTableAdapter.Connection.ConnectionString = Program.connstr;
+                    this.sP_DSChuaCoTKTableAdapter.Fill(this.dS.SP_DSChuaCoTK);
+                    if (Program.mGroup == "PGV")
+                    {
+                        cmbKhoa.Enabled = true;
+                        try
+                        {
+                            cmbRoles.Items.Clear();
+                            cmbRoles.Items.Add("PGV");
+                            cmbRoles.Items.Add("Khoa");
+                            cmbRoles.Items.Add("User");
+                            cmbRoles.Items.Add("PKeToan");
 
-                //        }
-                //    }
-                //    if (Program.mGroup == "PGV" && cmbKhoa.SelectedIndex.ToString() == "2")
-                //    {
-                //        cmbKhoa.Enabled = true;
-                //        try
-                //        {
-                //            cmbRoles.Items.Clear();
-                //            cmbRoles.Items.Add("PGV");
-                //            cmbRoles.Items.Add("Khoa");
-                //            cmbRoles.Items.Add("User");
-                //            cmbRoles.Items.Add("PKeToan");
-                //            cmbRoles.SelectedIndex = 3;
-                //            cmbRoles.Enabled = false;
-                //        }
-                //        catch (Exception ex)
-                //        {
-                //        }
-                //    }
-                //}
+                            cmbRoles.Enabled = true;
+                            cmbRoles.Items.RemoveAt(3);
+                            cmbRoles.SelectedIndex = 0;
+                        }
+                        catch (Exception ex)
+                        {
+
+                        }
+                    }
+                    if (Program.mGroup == "PGV" && cmbKhoa.SelectedIndex.ToString() == "2")
+                    {
+                        cmbKhoa.Enabled = true;
+                        try
+                        {
+                            cmbRoles.Items.Clear();
+                            cmbRoles.Items.Add("PGV");
+                            cmbRoles.Items.Add("Khoa");
+                            cmbRoles.Items.Add("User");
+                            cmbRoles.Items.Add("PKeToan");
+                            cmbRoles.SelectedIndex = 3;
+                            cmbRoles.Enabled = false;
+                        }
+                        catch (Exception ex)
+                        {
+                        }
+                    }
+                }
             }
+        }
+
+        private void cmbRoles_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

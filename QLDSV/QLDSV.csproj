@@ -117,6 +117,24 @@
     <Compile Include="frmREPORTDSSV.Designer.cs">
       <DependentUpon>frmREPORTDSSV.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmREPORTDSTHM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmREPORTDSTHM.Designer.cs">
+      <DependentUpon>frmREPORTDSTHM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmREPORTBANGDIEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmREPORTBANGDIEM.Designer.cs">
+      <DependentUpon>frmREPORTBANGDIEM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmREPORTPHIEUDIEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmREPORTPHIEUDIEM.Designer.cs">
+      <DependentUpon>frmREPORTPHIEUDIEM.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +153,18 @@
     </Compile>
     <Compile Include="rptDSSV.Designer.cs">
       <DependentUpon>rptDSSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptDSTHM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDSTHM.Designer.cs">
+      <DependentUpon>rptDSTHM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptPhieuDiem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPhieuDiem.Designer.cs">
+      <DependentUpon>rptPhieuDiem.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frmDangKyTaiKhoan.resx">
       <DependentUpon>frmDangKyTaiKhoan.cs</DependentUpon>
@@ -157,6 +187,15 @@
     <EmbeddedResource Include="frmREPORTDSSV.resx">
       <DependentUpon>frmREPORTDSSV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmREPORTDSTHM.resx">
+      <DependentUpon>frmREPORTDSTHM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmREPORTBANGDIEM.resx">
+      <DependentUpon>frmREPORTBANGDIEM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmREPORTPHIEUDIEM.resx">
+      <DependentUpon>frmREPORTPHIEUDIEM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSinhVien.resx">
       <DependentUpon>frmSinhVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +211,12 @@
     </Compile>
     <EmbeddedResource Include="rptDSSV.resx">
       <DependentUpon>rptDSSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDSTHM.resx">
+      <DependentUpon>rptDSTHM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPhieuDiem.resx">
+      <DependentUpon>rptPhieuDiem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="DS.xsc">

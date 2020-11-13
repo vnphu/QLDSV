@@ -194,3 +194,8 @@ D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\bin\Debug\ja\DevExpress.Diagram.v1
 D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
 D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.frmREPORTDSSV.resources
 D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.rptDSSV.resources
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.frmREPORTDSTHM.resources
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.rptDSTHM.resources
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.rptPhieuDiem.resources
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.frmREPORTBANGDIEM.resources
+D:\Desktop\Tailieu_CSDLPT\PROJECT\QLDSV\QLDSV\obj\Debug\QLDSV.frmREPORTPHIEUDIEM.resources

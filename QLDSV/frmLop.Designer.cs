@@ -133,9 +133,9 @@
             this.groupBox3.Controls.Add(mAKHLabel);
             this.groupBox3.Controls.Add(this.txtMaKhoa);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(0, 348);
+            this.groupBox3.Location = new System.Drawing.Point(0, 200);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1039, 290);
+            this.groupBox3.Size = new System.Drawing.Size(1039, 438);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
@@ -146,7 +146,7 @@
             this.txtMaLop.Location = new System.Drawing.Point(447, 57);
             this.txtMaLop.MenuManager = this.barManager1;
             this.txtMaLop.Name = "txtMaLop";
-            this.txtMaLop.Size = new System.Drawing.Size(100, 20);
+            this.txtMaLop.Size = new System.Drawing.Size(315, 20);
             this.txtMaLop.TabIndex = 1;
             // 
             // bdsLop
@@ -319,7 +319,7 @@
             this.txtTenLop.Location = new System.Drawing.Point(447, 83);
             this.txtTenLop.MenuManager = this.barManager1;
             this.txtTenLop.Name = "txtTenLop";
-            this.txtTenLop.Size = new System.Drawing.Size(100, 20);
+            this.txtTenLop.Size = new System.Drawing.Size(315, 20);
             this.txtTenLop.TabIndex = 3;
             // 
             // txtMaKhoa
@@ -328,7 +328,7 @@
             this.txtMaKhoa.Location = new System.Drawing.Point(447, 109);
             this.txtMaKhoa.MenuManager = this.barManager1;
             this.txtMaKhoa.Name = "txtMaKhoa";
-            this.txtMaKhoa.Size = new System.Drawing.Size(100, 20);
+            this.txtMaKhoa.Size = new System.Drawing.Size(315, 20);
             this.txtMaKhoa.TabIndex = 5;
             // 
             // lOPGridControl
@@ -339,7 +339,7 @@
             this.lOPGridControl.MainView = this.gridView1;
             this.lOPGridControl.MenuManager = this.barManager1;
             this.lOPGridControl.Name = "lOPGridControl";
-            this.lOPGridControl.Size = new System.Drawing.Size(1039, 290);
+            this.lOPGridControl.Size = new System.Drawing.Size(1039, 142);
             this.lOPGridControl.TabIndex = 2;
             this.lOPGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -383,6 +383,7 @@
             this.groupBox2.Size = new System.Drawing.Size(1039, 58);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // panel2
             // 

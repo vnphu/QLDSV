@@ -270,6 +270,7 @@ namespace QLDSV
                 System.Windows.Forms.MessageBox.Show(ex.Message);
             }
             btnGhi.Enabled = false;
+            panel2.Enabled = true;
         }
 
         private void btnThoat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -284,6 +285,11 @@ namespace QLDSV
         }
 
         private void cmbLanThi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

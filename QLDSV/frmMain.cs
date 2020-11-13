@@ -154,5 +154,82 @@ namespace QLDSV
                 MessageBox.Show("Bạn không sử dụng được chức năng này!", "", MessageBoxButtons.OK);
             }
         }
+
+        private void barButtonItem9_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (Program.mGroup == "PGV" || Program.mGroup == "Khoa")
+            {
+                Form frm = this.CheckExists(typeof(frmREPORTDSTHM));
+                if (frm != null) frm.Activate();
+                else
+                {
+                    frmREPORTDSTHM f = new frmREPORTDSTHM();
+                    f.MdiParent = this;
+                    f.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bạn không sử dụng được chức năng này!", "", MessageBoxButtons.OK);
+            }
+        }
+
+        private void barButtonItem10_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (Program.mGroup == "PGV" || Program.mGroup == "Khoa")
+            {
+                Form frm = this.CheckExists(typeof(frmREPORTBANGDIEM));
+                if (frm != null) frm.Activate();
+                else
+                {
+                    frmREPORTBANGDIEM f = new frmREPORTBANGDIEM();
+                    f.MdiParent = this;
+                    f.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bạn không sử dụng được chức năng này!", "", MessageBoxButtons.OK);
+            }
+        }
+
+        private void barButtonItem11_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (Program.mGroup == "PGV" || Program.mGroup == "Khoa")
+            {
+                Form frm = this.CheckExists(typeof(frmREPORTPHIEUDIEM));
+                if (frm != null) frm.Activate();
+                else
+                {
+                    frmREPORTPHIEUDIEM f = new frmREPORTPHIEUDIEM();
+                    f.MdiParent = this;
+                    f.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bạn không sử dụng được chức năng này!", "", MessageBoxButtons.OK);
+            }
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void MaGV_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HoTen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
